@@ -158,8 +158,7 @@ def render_tab1():
        
     # Show the stock image
     col1, col2, col3 = st.columns([1, 3, 1])
-    col2.image('./img/stock_market.jpg', use_column_width=True,
-                caption='Company Stock Information')
+    
     
     # Get the company information
     @st.cache_data
