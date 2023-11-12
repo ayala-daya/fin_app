@@ -127,7 +127,7 @@ def render_header():
     st.header("Daya Ayala")
     col1, col2 = st.columns([1,5])
     col1.write("Data source:")
-    col2.image('./img/yahoo_finance.png', width=100)
+    
 
     # Add the ticker selection on the sidebar
     # Get the list of stock tickers from S&P500
