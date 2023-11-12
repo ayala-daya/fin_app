@@ -126,7 +126,7 @@ def render_header():
     st.title("MY FINANCIAL DASHBOARD")
     st.header("Daya Ayala")
     col1, col2 = st.columns([1,5])
-    col1.write("Data source:")
+    
     
 
     # Add the ticker selection on the sidebar
